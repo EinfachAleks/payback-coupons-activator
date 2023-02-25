@@ -1,4 +1,4 @@
-# PayBack coupons activator
+# PayBack Coupons Activator
 
 The software is a coupon activation tool that automates the process of redeeming coupons on [PayBack]. With this software, users can easily activate all their available coupons with just a few clicks, eliminating the need for manual input and saving time. The software is designed to be user-friendly and easy to operate, making it accessible to individuals with varying levels of technical expertise. Users can simply input their login credentials and select the coupons they want to activate, and the software will handle the rest.
 
