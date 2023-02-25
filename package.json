@@ -1,0 +1,61 @@
+{
+  "name": "payback-coupons-activator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.spec.ts",
+  "homepage": "https://github.com/einfachaleks/payback-coupons-activator#readme",
+  "bugs": {
+    "url": "https://github.com/einfachaleks/payback-coupons-activator/issues"
+  },
+  "license": "The Unlicense",
+  "scripts": {
+    "publish": "npm version patch --force && npm publish",
+    "activatePaybackCoupons": "npx playwright test",
+    "activatePaybackCoupons:debug": "npx playwright test --debug",
+    "check:eslint": "eslint src",
+    "check:prettier": "prettier src --check",
+    "lint:eslint": "eslint --fix src",
+    "lint:prettier": "prettier --write src",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "payback",
+    "software",
+    "coupon activation",
+    "automate",
+    "redeem",
+    "user-friendly",
+    "save money",
+    "money saver",
+    "online shopping"
+  ],
+  "author": "einfachaleks",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://www.buymeacoffee.com/einfachaleks"
+    }
+  ],
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix src",
+      "prettier --write src"
+    ],
+    "*.{html,css,less,sass,css,md}": [
+      "prettier --write src"
+    ]
+  }
+}
