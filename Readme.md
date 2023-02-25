@@ -5,7 +5,7 @@ The software is a coupon activation tool that automates the process of redeeming
 ## Installation
 
 For usage of the project you need [Node] & [npm] installed on your machine.
-The minimal required version of [Node] is 16.15.0 and for [npm] is 6.14.17.
+The minimal required version of [Node] is 18 and for [npm] is 9.
 
 ```sh
 cd payback-coupons-activator
