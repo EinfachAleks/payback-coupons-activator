@@ -16,9 +16,9 @@ npm install
 
 ### Preparing
 
-Edit the following file `.env` with your editor if choice.
+Edit the following file `.env` with your editor of choice.
 
-Replace the variables with your own Data.
+Replace the variables with your own data.
 
 ```bash
 userEmailOrId="TYPE_YOUR_ID_OR_EMAIL"
