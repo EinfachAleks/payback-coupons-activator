@@ -11,7 +11,7 @@ const { modus } = process.env;
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "./src",
+  testDir: "src",
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
@@ -30,7 +30,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: modus === "prod" ? 2 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: modus === "prod" ? "null" : "html",
+  reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     headless: modus === "prod",
