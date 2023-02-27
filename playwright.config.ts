@@ -11,7 +11,7 @@ const { modus } = process.env;
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "src",
+  testDir: "./src",
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
