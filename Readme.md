@@ -1,11 +1,11 @@
 # PayBack Coupons Activator
 
-The software is a coupon activation tool that automates the process of redeeming coupons on [PayBack]. With this software, users can easily activate all their available coupons with just a few clicks, eliminating the need for manual input and saving time. The software is designed to be user-friendly and easy to operate, making it accessible to individuals with varying levels of technical expertise. Users can simply input their login credentials and select the coupons they want to activate, and the software will handle the rest.
+The software is a coupon activation tool that automates the process of redeeming coupons on [PayBack](https:/payback.de). With this software, users can easily activate all their available coupons with just a few clicks, eliminating the need for manual input and saving time. The software is designed to be user-friendly and easy to operate, making it accessible to individuals with varying levels of technical expertise. Users can simply input their login credentials and select the coupons they want to activate, and the software will handle the rest.
 
 ## Installation
 
-For usage of the project you need [Node] & [npm] installed on your machine.
-The minimal required version of [Node] is 18 and for [npm] is 9.
+For usage of the project you need [Node](https://nodejs.org/en/download/) & [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed on your machine.
+The minimal required version of [Node](https://nodejs.org/en/download/) is 18 and for [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is 9.
 
 ```sh
 cd payback-coupons-activator
@@ -41,9 +41,9 @@ npm run activatePaybackCoupons
 
 ## Contributing
 
-[Pull-Request] are welcome.
+[Pull-Request](https://github.com/EinfachAleks/payback-coupons-activator/pulls) are welcome.
 
-For major changes, please open an [Issue] first to discuss what you would like to change.
+For major changes, please open an [Issue](https://github.com/EinfachAleks/payback-coupons-activator/pulls) first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
@@ -55,12 +55,10 @@ For debugging purposes you should run following command
 npm run activatePaybackCoupons:debug
 ```
 
+## Fork
+
+- [KirDe](https://github.com/KirDE/payback-coupon-activator-userjs) for Browser usage with Tampermonkey or Greasemonkey.
+
 ## License
 
 [The Unlicense](https://choosealicense.com/licenses/unlicense/)
-
-[PayBack]: (https:/payback.de)
-[npm]: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-[Node]: (https://nodejs.org/en/download/)
-[Pull-Request]: (https://github.com/EinfachAleks/payback-coupons-activator/pulls)
-[Issue]: (https://github.com/EinfachAleks/payback-coupons-activator/pulls)

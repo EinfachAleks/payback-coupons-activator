@@ -31,8 +31,7 @@
     "check:prettier": "prettier src --check",
     "lint:eslint": "eslint --fix src",
     "lint:prettier": "prettier --write src",
-    "prepare": "husky install",
-    "publish": "npm version patch --force && npm publish"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,ts}": [
