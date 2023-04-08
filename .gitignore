@@ -3,3 +3,5 @@ node_modules/
 /tests-examples/
 /playwright-report/
 /playwright/.cache/
+
+.vscode
